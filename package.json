@@ -1,0 +1,28 @@
+{
+  "name": "helperfunctions_typescript",
+  "version": "1.0.0",
+  "description": "Helper Functions for TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/helperFunctions_TypeScript.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Helper",
+    "Functions"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/helperFunctions_TypeScript/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/helperFunctions_TypeScript#readme",
+  "dependencies": {
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  }
+}
