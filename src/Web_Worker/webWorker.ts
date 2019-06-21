@@ -1,6 +1,6 @@
 function webWorker(url: any, element: any) {
 
-  let w;
+  let w: any;
 
   function starting() {
 
@@ -12,7 +12,7 @@ function webWorker(url: any, element: any) {
 
       }
 
-      w.onmessage = function (event) {
+      w.onmessage = function (event: any) {
 
         document.querySelector(element).innerHTML = event.data;
 

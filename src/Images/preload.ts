@@ -2,7 +2,7 @@ let images = new Array();
 
 function preloader() {
 
-  for (i = 0; i < preloader.arguments.length; i++) {
+  for (let i = 0; i < preloader.arguments.length; i++) {
 
     images[i] = new Image();
 
